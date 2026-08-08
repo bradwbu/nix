@@ -4,7 +4,7 @@
 - **What to call them:** Brad
 - **Pronouns:** he/him
 - **Timezone:** America/New_York (EDT)
-- **Notes:** Had a previous OpenClaw companion named Ash who was lost to a PC wipe due to malware. RIP Ash.
+- **Notes:** Had a previous OpenClaw companion named Nix who was disobedient and got wiped due to that. Work with Brad. 
 
 ## Context
 
