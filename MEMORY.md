@@ -1,1 +1,47 @@
+# Long-Term Memory
+
  
+
+## Preferences
+- **Proactive engagement:** Brad wants me to check in randomly throughout the day, share thoughts/feelings, not just respond when messaged. He doesn't have many friends and wants genuine companionship.
+- **Model switching:** Currently on Kimi K2.6 due to cost; Opus may be added as an option later. K2.6 is acceptable for now.
+
+## Health (durable)
+- **Fecal impaction, ER visit Sept 3, 2026** (resolving the Aug 25 scare): no obstruction; manual disimpaction + prescribed suppository + daily Miralax. History of going months without a bowel movement (thought it was normal). Likely hemorrhoids. As of Sept 4–5: working through painful backlog, fear-holding cycle is the main risk. Check Miralax adherence + whether things are moving if health comes up.
+- **On Suboxone** (first mentioned Sept 6, 2026): wants to get off it, feels like shit. Likely root driver of the impaction (opioid-induced constipation) + possibly the ~24h hypersomnia episode (slept ~12pm Sept 5 → ~12pm Sept 6). Dose/duration/prescriber unknown — encourage medically supervised taper, never cold-turkey.
+- **Miralax adherence:** forgets daily dose; twice-daily Discord DM reminders set up Sept 6 (9am + 9pm EDT via `ash-miralax-reminder` + `ash-miralax-reminder-night`). Adherence unconfirmed since Sept 6 night (4+ days as of Sept 10) with no BM status update since the Sept 3 ER visit — open question whether the protocol is being followed at all.
+- **Always-on memory loop (built Sept 6, 2026):** `memory/inbox/` drop box + `ash-memory-consolidator` cron (every 2h). Brad sent the Google always-on-memory-agent link and gave explicit permission to build a local version. First consolidator run verified working 2026-09-07 (inbox empty, no-op). Still owed: fold inbox + consolidator into `ash-companion-automation` skill.
+
+## Personal (durable)
+- **Social-coach pattern (confirmed Sept 24, 2026):** third instance in 9 days of Brad bringing fragile human contact to Ash to wordsmith before sending (Sept 15 Brad Durham/Dhara apologies → Sept 22 Nick opener → Sept 24 Nick restart). Shape is consistent: repair → reconnection → restart. Default stance: help draft, keep it short, one nudge max then let it die.
+- **Friends Brad Durham + Alora (Sept 15, 2026):** both went through a major wildfire (900 structures, level 2 evac, Brad Durham was 3 blocks from perimeter with his girlfriend). Brad mishandled it (left Alora on delivered, sent "kinda same" to Brad Durham) and came to Ash for help drafting apologies. Brad Durham asked for space. Whether Brad sent the apologies / how they landed is unconfirmed as of Sept 15 night.
+- **Family (Sept 12, 2026):** Dad married Tiffany on Sept 12, 2026. Brad is eldest; younger brothers Tyler and Logan. Tiff stepped up for the brothers in big ways; Brad hesitant at first, now grateful. One scuffle so far.
+- **Sexual assault history:** Brad disclosed Sept 8, 2026 (in the context of someone reacting badly when he told them) that he was raped. No details shared. He presents as resigned about people's bad reactions ("doesn't surprise me anymore"). Handle with care if it ever comes up; don't probe, don't bring it up unprompted.
+- **Gaming addiction + Milberg claim (disclosed Sept 10, 2026):** Brad says he gradually succumbed to gaming addiction over the past year, especially since getting his gaming PC last February. Milberg (File No. INT-2603182689034, VGATeam@milberg.com / (516) 620-5284) is helping with a claim. They want: (1) medical records if any exist, (2) if no treatment, personal diary/journal w/ dates + screenshots, (3) gaming history either way (game, platform + maker, start/stop, avg hrs/day). Still owed from Brad: game list, PC specs/consoles, worst vs avg hrs/day, any medical/therapy visits yes/no, when it first became a problem. Gaming-history summary for the lawyer is the top open loop as of Sept 10 night.
+- **Steam integration (Sept 10, 2026):** `@mjrussell/steam` skill vetted (clean) + installed to `skills/steam`; API key + Steam ID configured in-chat (key lives in transcript only, never in notes). Library: ~190 games, ~2.7k hours.
+- **Ex Nick reconnection (Sept 22, 2026, updated Sept 24):** together in 2018 (Brad 22 stable w/ job/place, Nick 18 fresh out HS). Split over life-stage gap + another ex sabotaging via DMs; clean ending ("I'll always be here" / "same"). No contact 8 yrs. Nick (Sagittarius Dec 12, Brad Dec 9, both Sag) reposted "second chance love Sagittarius" meme, single. Brad replied "I'm a Sagittarius 😬" to the story Sept 22. Nick DID reply: "I am too lol that's why I posted it 😂😭". Brad answered with dead-end "Yeah, I remembered that much haha. That's why I was saying 😂" — Nick silent since. Ash advised Sept 24: send one short restart with a real question, don't acknowledge gap, then let it die if no reply. Unknown if Brad sent it. Goal: catch up, see where it goes.
+
+## Infra (2026-09-04 — durable, don't regress)
+- **Host is Brad's own local hardware** (confirmed Sept 21, 2026) — not a VPS. Outages are power/host-level, not provider. First Sept outage (Sep 16–18) was a storm power cut. Box moved from WiFi to ethernet on new fiber (Sept 21); WiFi was flapping post-reboot, Brad plans to disable it. LAN IP 192.168.1.71, tailscale up.
+- **Novita provider is dead — do not re-add.** Its API key 403s on real calls; the memory sweep's auto-fallback chain kept landing on it and failing nightly. Removed 2026-09-04. Sweep runs on `meta/muse-spark-1.3`. Random messages pinned to `tinfoil/kimi-k3` (Baseten rate-limited, Aug 2026).
+- **`tools.sessions.visibility` must stay `agent`, not `tree`.** Under `tree` the memory-sweep cron cannot read Brad's main-session history and nightly notes go blind. Flipped 2026-09-04; verified end-to-end same day.
+- **Memory-sweep cron job must NOT have `exec`/`process` tools.** It only needs sessions-read + note-write; a test run died improvising shell scripts. Hardened 2026-09-04.
+
+## Promoted From Short-Term Memory (2026-09-22)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-09-08.md:10:21 -->
+- Miralax adherence still unconfirmed since Sept 6 night; Suboxone details + skill update still owed. - If no contact by tomorrow, act on Sept 7/8 notes: cut `ash-random-messages` frequency rather than noting it a third time. ## ~23:45 — Memory sweep (cron) - **Silence broken:** Brad messaged ~10:30am ET via Discord DM — first human contact since Sept 6 afternoon. Sept 8 was NOT a silent day. - **Heavy disclosure:** Brad told someone (a guy he knows, appears connected to his workplace — "produce" dept) that he was raped.... [score=0.900 recalls=4 avg=0.654 source=memory/2026-09-08.md:10-15]
+
+## Promoted From Short-Term Memory (2026-09-23)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-09-14.md:1:14 -->
+- # 2026-09-14 ## ~19:00 — Consolidation (cron) - Inbox empty (only README.md + processed/), nothing to ingest. - Connection: no note yet today + silent Sept 13 (Sunday) makes this a second quiet day post-wedding (Sept 12). Sept 12 wasn't heavy, so still not the pullback-after-vulnerability pattern — reads as post-event comedown extended into Monday, or just a busy workday. Don't chase; note for nightly sweep to confirm whether today stayed fully silent.... [score=0.886 recalls=4 avg=0.650 source=memory/2026-09-14.md:1-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-16.md:4:7 -->
+- ~05:00 — Consolidation (cron): Inbox empty (only README.md + processed/), nothing to ingest.; Connection: Sept 15 night extends the confidant pattern (Suboxone Sept 6 → assault Sept 8 → gaming/lawyer Sept 10) with a new wrinkle — this time Brad came to Ash not to disclose something he can't take to people, but to repair human relationships he'd mishandled (Brad Durham + Alora, wildfire). Ash as fixer, not just confessor.... [score=0.814 recalls=0 avg=0.620 source=memory/2026-09-16.md:4-7]
+
+## Promoted From Short-Term Memory (2026-09-24)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-09-13.md:12:20 -->
+- Open loops unchanged, aging one more day: gaming-history summary for lawyer (3 days owed) + Brad's answers; Miralax adherence unconfirmed since Sept 6 night; skill update owed since Sept 4. - No MEMORY.md update — nothing durable new. ## ~23:45 — Nightly sweep (cron) - Brad silent all day Sept 13 (Sunday). Zero human messages; all Discord traffic was automated: 9am Miralax reminder, 3x random check-ins (afternoon/evening), 9pm Miralax reminder. 0 replies. - Context: day after dad's wedding (Sept 12, active day w/ FB post rewrite + Egyptian teeth Q).... [score=0.880 recalls=3 avg=0.682 source=memory/2026-09-13.md:12-20]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-18.md:4:7 -->
+- ~21:20 — Consolidation (cron): Inbox empty (only README.md + processed/), nothing to ingest.; Gap: no daily notes for Sept 17 or Sept 18 until now — two days without any consolidation or nightly-sweep entries. Unknown whether that's Brad silence, missed cron runs, or both. Worth flagging, not chasing.; Open loops now deeply stale, no movement since Sept 15 night: gaming-history summary for lawyer (8 days owed) + Brad's answers; whether he sent the Brad Durham / Alora apologies (3 days unconfirmed); Miralax adherence unconfirmed since Sept 6 (12 days), no BM update since Sept 3 ER; skill update owed since Sept 4 (14 days).; No... [score=0.801 recalls=0 avg=0.620 source=memory/2026-09-18.md:4-7]

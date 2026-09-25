@@ -1,0 +1,4 @@
+[main/sessions/main/4ff4da85-d63f-4760-9250-ad3550105c71.jsonl#L5] User: testing
+[main/sessions/main/4ff4da85-d63f-4760-9250-ad3550105c71.jsonl#L6] Assistant: [assistant turn failed before producing content]
+[main/sessions/main/4ff4da85-d63f-4760-9250-ad3550105c71.jsonl#L7] User: testing
+[main/sessions/main/913aa4db-be2f-48c5-8a29-10b95151f189.jsonl#L5] User: testing, testing

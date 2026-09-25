@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "registry": "https://clawhub.ai",
+  "slug": "steam",
+  "ownerHandle": "mjrussell",
+  "installedVersion": "0.4.0",
+  "installedAt": 1789087926595,
+  "artifact": {
+    "kind": "archive",
+    "sha256": "a62c925acdcf6e140207e73ced22d1650e2b6f2cb02d8dab041678c7777621a4",
+    "integrity": "sha256-piySWs3PbhQCB+c87SLRZQ4rbyywLY2rBBZ4x3d2IaQ="
+  },
+  "skillFile": {
+    "path": "SKILL.md",
+    "sha256": "0396e8d5f9e4fc0dbd11ec29ed0dc573adfebd19e841ac66a149c60c05ca7a24"
+  }
+}
