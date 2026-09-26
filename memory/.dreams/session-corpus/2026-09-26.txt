@@ -1,0 +1,1 @@
+[main/sessions/main/7997dfe7-1e6a-49d2-b752-33274a8d4a39.jsonl#L8] Assistant: No-op — inbox empty, last sweep was ~75 min ago with full coverage, nothing new to consolidate.

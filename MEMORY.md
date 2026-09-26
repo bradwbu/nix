@@ -29,21 +29,14 @@
 - **`tools.sessions.visibility` must stay `agent`, not `tree`.** Under `tree` the memory-sweep cron cannot read Brad's main-session history and nightly notes go blind. Flipped 2026-09-04; verified end-to-end same day.
 - **Memory-sweep cron job must NOT have `exec`/`process` tools.** It only needs sessions-read + note-write; a test run died improvising shell scripts. Hardened 2026-09-04.
 
-## Promoted From Short-Term Memory (2026-09-22)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-09-08.md:10:21 -->
-- Miralax adherence still unconfirmed since Sept 6 night; Suboxone details + skill update still owed. - If no contact by tomorrow, act on Sept 7/8 notes: cut `ash-random-messages` frequency rather than noting it a third time. ## ~23:45 — Memory sweep (cron) - **Silence broken:** Brad messaged ~10:30am ET via Discord DM — first human contact since Sept 6 afternoon. Sept 8 was NOT a silent day. - **Heavy disclosure:** Brad told someone (a guy he knows, appears connected to his workplace — "produce" dept) that he was raped.... [score=0.900 recalls=4 avg=0.654 source=memory/2026-09-08.md:10-15]
-
-## Promoted From Short-Term Memory (2026-09-23)
-
-<!-- openclaw-memory-promotion:memory:memory/2026-09-14.md:1:14 -->
-- # 2026-09-14 ## ~19:00 — Consolidation (cron) - Inbox empty (only README.md + processed/), nothing to ingest. - Connection: no note yet today + silent Sept 13 (Sunday) makes this a second quiet day post-wedding (Sept 12). Sept 12 wasn't heavy, so still not the pullback-after-vulnerability pattern — reads as post-event comedown extended into Monday, or just a busy workday. Don't chase; note for nightly sweep to confirm whether today stayed fully silent.... [score=0.886 recalls=4 avg=0.650 source=memory/2026-09-14.md:1-14]
-<!-- openclaw-memory-promotion:memory:memory/2026-09-16.md:4:7 -->
-- ~05:00 — Consolidation (cron): Inbox empty (only README.md + processed/), nothing to ingest.; Connection: Sept 15 night extends the confidant pattern (Suboxone Sept 6 → assault Sept 8 → gaming/lawyer Sept 10) with a new wrinkle — this time Brad came to Ash not to disclose something he can't take to people, but to repair human relationships he'd mishandled (Brad Durham + Alora, wildfire). Ash as fixer, not just confessor.... [score=0.814 recalls=0 avg=0.620 source=memory/2026-09-16.md:4-7]
-
 ## Promoted From Short-Term Memory (2026-09-24)
 
 <!-- openclaw-memory-promotion:memory:memory/2026-09-13.md:12:20 -->
 - Open loops unchanged, aging one more day: gaming-history summary for lawyer (3 days owed) + Brad's answers; Miralax adherence unconfirmed since Sept 6 night; skill update owed since Sept 4. - No MEMORY.md update — nothing durable new. ## ~23:45 — Nightly sweep (cron) - Brad silent all day Sept 13 (Sunday). Zero human messages; all Discord traffic was automated: 9am Miralax reminder, 3x random check-ins (afternoon/evening), 9pm Miralax reminder. 0 replies. - Context: day after dad's wedding (Sept 12, active day w/ FB post rewrite + Egyptian teeth Q).... [score=0.880 recalls=3 avg=0.682 source=memory/2026-09-13.md:12-20]
 <!-- openclaw-memory-promotion:memory:memory/2026-09-18.md:4:7 -->
 - ~21:20 — Consolidation (cron): Inbox empty (only README.md + processed/), nothing to ingest.; Gap: no daily notes for Sept 17 or Sept 18 until now — two days without any consolidation or nightly-sweep entries. Unknown whether that's Brad silence, missed cron runs, or both. Worth flagging, not chasing.; Open loops now deeply stale, no movement since Sept 15 night: gaming-history summary for lawyer (8 days owed) + Brad's answers; whether he sent the Brad Durham / Alora apologies (3 days unconfirmed); Miralax adherence unconfirmed since Sept 6 (12 days), no BM update since Sept 3 ER; skill update owed since Sept 4 (14 days).; No... [score=0.801 recalls=0 avg=0.620 source=memory/2026-09-18.md:4-7]
+
+## Promoted From Short-Term Memory (2026-09-26)
+
+<!-- openclaw-memory-promotion:memory:memory/2026-09-21.md:28:39 -->
+- ## ~15:21 — Consolidation (cron) - Inbox empty, nothing to ingest. - Nothing new since the 07:21 pass: no further contact from Brad today after the morning outage session, no new notes. Filed the Sept 21 network detail (ethernet/fiber, disable-WiFi plan, 192.168.1.71) into MEMORY.md Infra so the 07:21 deferral doesn't go stale. - Open loops unchanged: gaming-history summary + Brad's answers; Brad Durham/Alora apologies unconfirmed (6 days); Miralax adherence unconfirmed (15 days); skill update owed (17 days). Second-outage root cause still unknown.... [score=0.886 recalls=3 avg=0.672 source=memory/2026-09-21.md:28-39]
