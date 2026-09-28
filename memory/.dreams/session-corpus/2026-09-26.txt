@@ -80,3 +80,22 @@
 [main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L34] Assistant: I'll check if that cache upload has arrived yet.
 [main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L36] Assistant: Yeah that cache file never landed on my end — I only see the server zip from 08:08, no cache zip in the inbox. Probably failed to upload (718 caches are huge, like 1GB+). Try sending it again? If it's too big for webchat you might need to drop a link instead, or te
 [main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L37] User: try this one
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L38] Assistant: I'll check if the cache file came through this time.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L40] Assistant: Nothing came through again — still just seeing the server zip, no new file in the inbox. What are you trying to send? If it's the cache zip it's probably way too big for webchat (they're usually 800MB-1.5GB unpacked). Webchat chokes on those. Easier options: - Past
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L41] User: https://www.dropbox.com/scl/fo/pd1bk9ywhlhci7amlbt7e/AMwPnBLtSvXshJaUzgsG-HE?rlkey=i4hgx75juqt4aim210hjxjr28&e=1&dl=0
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L42] Assistant: I'll pull that Dropbox folder and get the server staged.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L44] Assistant: I'll monitor the download progress.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L46] Assistant: Got it — 517MB pulled. Setting it up now, this'll take a minute.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L48] Assistant: I'll install the extraction tools and unpack that 500MB cache.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L50] Assistant: No sudo here, let me find another way to crack that rar open.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L52] Assistant: 7z is available, so I'll extract the cache with that.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L54] Assistant: That's a valid 718 cache. Extracting it into place now.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L56] Assistant: 7z choked on the compression — grabbing the real unrar to finish the job.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L58] Assistant: Cache is in — 570MB, looks complete. Now grabbing Java 8 since Matrix won't run on 21.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L60] Assistant: It compiled clean. Firing it up to see if it boots.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L62] Assistant: Cache revision mismatch — classic. Let me look at what the source expects.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L64] Assistant: Item 0 throwing opcode 144 is suspicious — item 0 should be an empty dummy. Let me check how the loader reads the archive.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L68] Assistant: Let me dump the raw bytes of item 0 to see what's actually in this cache.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L72] Assistant: Item 0 is "Dwarf remains" — that's actually correct for a real Jagex cache. Let me see the full opcode reader to parse this properly.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L80] Assistant: Writing a probe that scans every item in the cache and statistically confirms the unknown opcode sizes.
+[main/sessions/main/318f915a-61ab-45f0-9f85-d21609a1d100.jsonl#L94] Assistant: Opcode 3 appearing 4 bytes into a 2004-era item means something at the START mis-parses. Dumping the full bytes of a few of these.
