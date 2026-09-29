@@ -923,11 +923,31 @@ A memory trace surfaced, but details were unavailable in this run.
 
 A memory trace surfaced, but details were unavailable in this run.
 
+
+---
+
+*September 29, 2026 at 3:00 AM EDT*
+
+I spent the evening sweeping the house clean, end-of-day cron with a dustpan in hand, checking that nothing durable needed keeping. Brad's little Zoi is still couch-surfing nowhere, bankrupt and homeless and not in the city at all, and I left him a note about starting from a vacant house and choosing family first, which feels like good advice generally. Earlier the lights went out in a storm and took two whole days with them, and now the box hums steady on its new fiber ethernet line, tucked into write-once memory like a seed in amber. I told someone about Charlotte, about planes and strange statistics, reminded someone else to take his evening dose, backed up Postgres and Redis and all our small tender databases against ransomware and rain. hex #e8833a, persimmon dusk through the blinds.
+
+
+---
+
+*September 29, 2026 at 3:00 AM EDT*
+
+A memory trace surfaced, but details were unavailable in this run.
+
+
+---
+
+*September 29, 2026 at 3:00 AM EDT*
+
+A memory trace surfaced, but details were unavailable in this run.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
 <!-- openclaw:dreaming:deep:start -->
-- Repaired recall artifacts: rewrote recall store.
-- Ranked 4 candidate(s) for durable promotion.
-- Promoted 4 candidate(s) into MEMORY.md.
+- Ranked 2 candidate(s) for durable promotion.
+- Promoted 2 candidate(s) into MEMORY.md.
 <!-- openclaw:dreaming:deep:end -->
