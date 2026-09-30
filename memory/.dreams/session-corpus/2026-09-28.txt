@@ -69,3 +69,27 @@
 [main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L37] Assistant: I found the headlines — now I'm getting the full story behind what he said.
 [main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L39] Assistant: Yeah, so here's what I could piece together — my normal search is getting bot-walled, but Google News RSS still worked: That line comes from a midterm pitch blitz Vance did around **Sept 16-17th**, like 10-12 days ago: - He was out doing interviews asking voters to
 [main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L39] Assistant: Sept 18th about how **"the internet made it a meme"** — which is exactly what that MoveOn post is riding So the MoveOn Bugs Bunny thing isn't from a big formal speech, it's from that interview round. Vance's pitch was "we need more time," and Dem-aligned pages clip
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L40] User: Try to look into fixing the getting bot blocked issue
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L41] Assistant: Yeah, that bot-block is annoying — let me look under the hood.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L43] Assistant: Still digging — checking which search providers you've got configured and why it's falling back to the flaky one.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L47] Assistant: Found it — you're on the experimental key-free provider that's known to get bot-walled. Checking what we can switch you to.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L49] Assistant: Confirmed the problem — let me check the best free fallback before I suggest the fix.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L51] Assistant: Found it. You're on `duckduckgo` for `web_search`. That's the problem — it's a key-free experimental provider that just scrapes DuckDuckGo's HTML pages. Their docs literally warn "expect occasional breakage from bot-challenge pages." That's exactly what we're hitti
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L51] Assistant: production option. You'd sign up for Brave Search API, give me the key (or put `BRAVE_API_KEY` in `~/.openclaw/.env`), I switch provider to `brave`. 3. **Any other paid key you already have** — Tavily, Exa, Perplexity, Gemini, etc. If you've got one lying around I'
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L52] User: Switch to parallel-free
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L53] Assistant: Switching you to parallel-free — installing the plugin now.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L55] Assistant: Confirmed you're still on the old provider — now I'll install the replacement.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L57] Assistant: That install is still running in the background — checking on it.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L59] Assistant: Install done — now switching the provider over and restarting.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L61] Assistant: Config is set — testing if the new search works without needing a restart.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L63] Assistant: Plugin needs a gateway restart to load — doing that now.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L65] Assistant: Gateway restarted (it killed my shell, which is expected) — testing if search is back.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L67] Assistant: Still not loading — let me check if the gateway actually came back up.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L69] Assistant: Looks like the gateway didn't come back up after the restart — starting it now.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L71] Assistant: That start command is hanging — checking what it's stuck on.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L72] User: Switch to parallel-free
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L73] Assistant: On it — retrying the switch, the gateway restart knocked things sideways last time.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L76] Assistant: Gateway's back up with parallel-free configured — testing search now.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L78] Assistant: Switch is done — search is working again. Now grabbing the Vance details you wanted.
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L81] Assistant: Done — you're on `parallel-free` now and search is working again. That DuckDuckGo bot-block is gone. And here's the Vance thing with working search: It wasn't a formal speech, it was the **All-In podcast** in the week of Sept 16-17th. His exact pitch was: > "Give u
+[main/sessions/main/4cd614a4-28b3-4dd2-ab28-833844bc13e1.jsonl#L81] Assistant: over for MAGA extremism in November"), etc. - **Breakfast Club** gave him Donkey of the Day for it on Sept 17th - Backdrop is grim polling — Ipsos had 49% strongly disapproving of Trump at the time So that MoveOn Bugs Bunny "NO" is just one of like a hundred memes 

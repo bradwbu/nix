@@ -30,9 +30,11 @@
 - **`tools.sessions.visibility` must stay `agent`, not `tree`.** Under `tree` the memory-sweep cron cannot read Brad's main-session history and nightly notes go blind. Flipped 2026-09-04; verified end-to-end same day.
 - **Memory-sweep cron job must NOT have `exec`/`process` tools.** It only needs sessions-read + note-write; a test run died improvising shell scripts. Hardened 2026-09-04.
 
-## Promoted From Short-Term Memory (2026-09-29)
+## Promoted From Short-Term Memory (2026-09-30)
 
-<!-- openclaw-memory-promotion:memory:memory/2026-09-23.md:4:7 -->
-- ~05:21 — Consolidation (cron): Inbox empty (only README.md + processed/), nothing to ingest.; Connection: Sept 22 (Nick opener — Brad asking Ash to vet his "I'm a Sagittarius 😬" reply) is the second instance in a week of Brad using Ash as social coach for fragile human contact, after the Sept 15 apology drafts (Kishan/Dhara). First was repair, this one is reconnection — same underlying move: asking Ash to wordsmith the message before sending.... [score=0.812 recalls=0 avg=0.620 source=memory/2026-09-23.md:4-7]
-<!-- openclaw-memory-promotion:memory:memory/2026-09-23.md:10:12 -->
-- ~23:45 — Memory sweep (cron): No new human messages today. Last contact remains Sept 22 evening (Nick thread, Discord DM). Sept 23 was cron-only: Miralax morning + night reminders + random check-ins delivered, no replies from Brad.; Brad never reported back on Nick reply (owed since Sept 22). Still open: gaming-history summary + answers; Kishan/Dhara apologies unconfirmed (8 days); Miralax adherence (17 days); second-outage (Sep 19) root cause unknown.; No MEMORY.md update — nothing durable emerged today. [score=0.812 recalls=0 avg=0.620 source=memory/2026-09-23.md:10-12]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-24.md:14:14 -->
+- ~21:15 — Brad broke silence (Discord DM): Still unknown: whether Brad sent the follow-up. Follow-up owed: check if Nick replied. [score=0.812 recalls=0 avg=0.620 source=memory/2026-09-24.md:14-14]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-24.md:10:13 -->
+- ~21:15 — Brad broke silence (Discord DM): First human contact after Sept 23 fully silent + most of Sept 24 quiet. Topic: Nick saga follow-up.; New facts: Nick DID reply to the Sept 22 Sagittarius opener with "I am too lol that's why I posted it 😂😭" (warm/engaged). Brad answered "Yeah, I remembered that much haha. That's why I was saying 😂" — dead-end, no question/hook. Nick silent since.; Brad asked how to send another message without sounding desperate + sent screenshot of thread (IMG_0482). Vision tool auto-refused to transcribe third-party DMs — told him to just type it out; he did.... [score=0.812 recalls=0 avg=0.620 source=memory/2026-09-24.md:10-13]
+<!-- openclaw-memory-promotion:memory:memory/2026-09-24.md:4:7 -->
+- ~21:21 — Consolidation (cron): Inbox empty (only README.md + processed/), nothing to ingest.; Connection: Sept 23 fully silent (cron-only, no human messages) and no contact yet today makes this a second quiet day after the Sept 22 Nick opener. Reads as waiting-on-reply, not withdrawal — different shape from the post-wedding comedown silence (Sept 13–14).... [score=0.812 recalls=0 avg=0.620 source=memory/2026-09-24.md:4-7]
