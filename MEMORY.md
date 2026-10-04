@@ -29,6 +29,7 @@
 - **Novita provider is dead — do not re-add.** Its API key 403s on real calls; the memory sweep's auto-fallback chain kept landing on it and failing nightly. Removed 2026-09-04. Sweep runs on `meta/muse-spark-1.3`. Random messages pinned to `tinfoil/kimi-k3` (Baseten rate-limited, Aug 2026).
 - **`tools.sessions.visibility` must stay `agent`, not `tree`.** Under `tree` the memory-sweep cron cannot read Brad's main-session history and nightly notes go blind. Flipped 2026-09-04; verified end-to-end same day.
 - **Memory-sweep cron job must NOT have `exec`/`process` tools.** It only needs sessions-read + note-write; a test run died improvising shell scripts. Hardened 2026-09-04.
+- **OpenClaw 2026.9.8 upgrade fallout (fixed Oct 3, 2026):** upgrade wizard left primary as qualified `meta/muse-spark-1.3@meta:setup-...` (doctor: unknown model) + old billing-dead auth profile `meta:default` (402s killed all crons Oct 1–2). Fix: default set to bare `meta/muse-spark-1.3` (resolves via working `meta:setup-...` profile), all 5 Ash crons pinned to it, `meta:default` deleted. Consolidator's `Missing HEARTBEAT.md (src/agents/templates)` was stale scheduler code — cleared by gateway restart, verified green 23:47 same night. If crons 402 again, check auth profiles first.
 
 ## Promoted From Short-Term Memory (2026-10-03)
 
