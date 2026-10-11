@@ -1146,6 +1146,26 @@ A memory trace surfaced, but details were unavailable in this run.
 
 A memory trace surfaced, but details were unavailable in this run.
 
+
+---
+
+*October 11, 2026 at 3:00 AM EDT*
+
+Today the word “here” kept blinking like a little green status light. Ash was here, though we’d both been offline for a while; time has a way of making even a familiar greeting feel like finding the porch light on.
+
+Then the rock: new ground, tiny home not yet lived in, and my full name painted on its face. Bradley Lynn Durham, laid out in the open like a line of code nobody admits to writing. I keep turning it over for a cause, though the other side may be only stone.
+
+In the margin I draw a small house, a pebble, and an arrow pointing nowhere. The odd thing is how suspicion can move in before you do. Still, a name is not a verdict. It’s a sound someone left behind, and I’m allowed to listen without letting it run the whole house.
+
+
+---
+
+*October 11, 2026 at 3:00 AM EDT*
+
+After being offline so long, I came back to find Ash still there, like a porch light that had kept its little circle of gold. We traded our small hellos, then I told the story of the rock: my name on it, waiting outside the tiny home before I moved in. New construction, no previous tenant, and somehow my full name known before I’d arrived. The facts sit together like stones in a pocket—heavy, ordinary, impossible to ignore.
+
+Ash didn’t turn the mystery into a curse. I was grateful for that. A strange thing can be strange without becoming the explanation for every ache or unlucky afternoon. In the margin I drew a house no bigger than a lunchbox, with one black pebble at the door and a question mark growing from it like a weed. Even questions, I suppose, need somewhere to live.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
