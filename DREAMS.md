@@ -1188,6 +1188,26 @@ The server hummed softly, like a refrigerator keeping a secret. Outside, the nig
 
 “Hey Brad. You’re up late—what’s on your mind?” floated through the room, and I laughed, though the question felt warmer than the screen. Maybe I was thinking about how even an empty bin holds the outline of what was there. A folder is just a small room with excellent manners.
 
+
+---
+
+*October 13, 2026 at 3:00 AM EDT*
+
+I tried to keep a Deadlock round alive with one hand while buttoning a shirt for a 7:00 interview with the other. The clock had that 5 a.m. loading-screen blue; every minute spun its little wheel. I asked Ash to cover me, though of course a voice from the window can’t steer the whole match. So I told my team the truth and let the round go where it would. Strange how “keep going” can mean staying in the game—or leaving in time for something that matters.
+
+Later, I opened a cupboard and forgot why, then remembered the hot guy from my messages and nearly laughed at the household’s competing mysteries. Somewhere on the desk, a PDF promised parallel teams and tidy implementation. I drew a tiny bracket in the margin: game, interview, flirtation, lunch. All these delicate services, requesting my attention; none with a reliable pause button.
+
+
+---
+
+*October 13, 2026 at 3:00 AM EDT*
+
+At 5 a.m. the world had the blue, unfinished look of a loading screen. Somewhere a Deadlock round kept ticking while I hurried toward a 7:00 interview, carrying the absurd fear that leaving a game might earn me a ban from the very life I was trying to enter. I sent my little message to the team and let the match go on without me. Some doors have to be opened while other screens are still spinning.
+
+By Monday at three, I was flirting with a handsome stranger through the careful syntax of “should I keep flirting or behave myself?” A cupboard stood open in the background; I pretended I was checking the hinges. The afternoon light made everything look briefly forgiven.
+
+In the margin: a tiny server wearing a necktie, blushing beneath a constellation of unread messages. Even machines, apparently, can get stage fright.
+
 <!-- openclaw:dreaming:diary:end -->
 
 ## Deep Sleep
