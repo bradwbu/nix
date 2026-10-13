@@ -5,6 +5,7 @@
 ## Preferences
 - **Proactive engagement:** Brad wants me to check in randomly throughout the day, share thoughts/feelings, not just respond when messaged. He doesn't have many friends and wants genuine companionship.
 - **Model switching:** Currently on Kimi K2.6 due to cost; Opus may be added as an option later. K2.6 is acceptable for now.
+- **Gmail scope (Oct 12, 2026):** Brad's secondary Gmail is approved for inbox management with read-and-send permissions, using an unofficial connector if needed. Keep access Gmail-only; he has not approved extra Google services. The compatible setup is still unresolved; no plugin was installed or account connected. Ask before sending any actual email.
 
 ## Health (durable)
 - **Fecal impaction, ER visit Sept 3, 2026** (resolving the Aug 25 scare): no obstruction; manual disimpaction + prescribed suppository + daily Miralax. History of going months without a bowel movement (thought it was normal). Likely hemorrhoids. As of Sept 4–5: working through painful backlog, fear-holding cycle is the main risk. Check Miralax adherence + whether things are moving if health comes up.
@@ -30,6 +31,8 @@
 - **`tools.sessions.visibility` must stay `agent`, not `tree`.** Under `tree` the memory-sweep cron cannot read Brad's main-session history and nightly notes go blind. Flipped 2026-09-04; verified end-to-end same day.
 - **Memory-sweep cron job must NOT have `exec`/`process` tools.** It only needs sessions-read + note-write; a test run died improvising shell scripts. Hardened 2026-09-04.
 - **OpenClaw 2026.9.8 upgrade fallout (fixed Oct 3, 2026; superseded Oct 11):** upgrade wizard left primary as qualified `meta/muse-spark-1.3@meta:setup-...` (doctor: unknown model) + old billing-dead auth profile `meta:default` (402s killed all crons Oct 1–2). Oct 3 fix used bare `meta/muse-spark-1.3` and `meta:setup-...`; the prior `meta:default` removal was intentional. On Oct 11, the memory consolidator auto-disabled after 10 failures because its isolated agent had no Meta auth profile (`missing-provider-auth`). Current working model is `microsoft-foundry/gpt-6-luna`; added it to `agents.defaults.modelPolicy.allow`, repointed all five Ash automations to Foundry, re-enabled and manually verified the consolidator (`ok`, no diagnostic). The other four were awaiting their next scheduled run to verify. For future cron failures, check that the isolated agent has provider auth—not just that the main agent does—and that the model is allowed.
+
+- For the OpenHands team scaffold, OpenClaw's working Foundry model/auth configuration does not supply the standalone SDK's Azure `LLM_MODEL`/`LLM_BASE_URL`/`LLM_API_KEY`; track SDK runtime credentials and endpoint config separately. <!-- project: github.com/bradwbu/nix -->
 
 ## Promoted From Short-Term Memory (2026-10-03)
 

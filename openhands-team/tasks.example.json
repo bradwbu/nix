@@ -1,0 +1,38 @@
+[
+  {
+    "id": "worker-1",
+    "title": "Implement the isolated settings module",
+    "description": "Implement the settings module according to the agreed interface in docs/contracts/settings.md.",
+    "files": ["src/settings/", "tests/settings/"],
+    "depends_on": [],
+    "acceptance_criteria": [
+      "Settings parse from the documented environment variables",
+      "Unit tests cover valid and invalid values",
+      "Changes are committed only to this worker's branch"
+    ]
+  },
+  {
+    "id": "worker-2",
+    "title": "Implement the isolated profile module",
+    "description": "Implement profile persistence according to docs/contracts/profile.md; do not change shared interfaces.",
+    "files": ["src/profiles/", "tests/profiles/"],
+    "depends_on": [],
+    "acceptance_criteria": [
+      "Profile persistence follows the agreed contract",
+      "Unit tests cover create, read, update, and missing-profile behavior",
+      "Changes are committed only to this worker's branch"
+    ]
+  },
+  {
+    "id": "worker-3",
+    "title": "Add contract-focused tests",
+    "description": "Add tests for the agreed public contracts using existing fixtures; do not edit implementation modules.",
+    "files": ["tests/contracts/"],
+    "depends_on": [],
+    "acceptance_criteria": [
+      "Tests cover the documented public contracts",
+      "Tests run without network access",
+      "Changes are committed only to this worker's branch"
+    ]
+  }
+]
