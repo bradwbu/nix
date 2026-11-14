@@ -1,0 +1,1 @@
+[main/sessions/main/815442f8-86a1-4cd7-9c5f-67bfdd5e228e#L22] Assistant: Gateway restart config-patch ok (config.patch) Update defaults from Control UI Recommended follow-up: run openclaw doctor --non-interactive in a terminal or approvals-capable OpenClaw surface.
